@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    .navbar {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    top: 0;
+    cursor: pointer;
+    }
+    
+    .background {
+    background: black;
+    background-blend-mode:darken;
+    background-size:cover;
+    }
+    
+    .nav-list {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    }
+    
+    .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    }
+
+    .logo img {
+        width: 100px;
+        border-radius: 30px;
+        }
+    
+    .nav-list li a {
+    text-decoration: none;
+    color: white;
+    }
+    
+    .nav-list li a:hover {
+    color: grey;
+    }
+    
+    .rightnav {
+    width: 30%;
+    text-align: right;
+    }
+    
+    #search {
+    padding: 5px;
+    font-size: 14px;
+    border: 2px solid rgb(11, 11, 11);
+    border-radius: 9px;
+    }
+
+    .thumbnail img {
+        width: 245px;
+        border: 2px solid black;
+        border-radius: 26px;
+        margin-top: 19px;
+        margin-bottom: 19px;
+        }
+
+    .firstsection{background-color: rgb(228, 223, 219);
+    height: 220px}
+
+    .secondsection{background-color: rgb(228, 223, 219);
+    height: 270px}
+    
+    .thirdsection {
+    background-color: rgb(228, 223, 219);
+    height: 600px;
+    padding-top: 10px;
+    }
+    
+    .fourthsection {
+    background-color: rgb(228, 223, 219);
+    height: 600px;
+    }
+    
+    .box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+    }
+
+    .item{
+        font-size:27px;
+        color:black;
+    }
+    
+    button{background-color:aqua;}
+
+h2{font-size: 40px;}
+h2{color: white;}
+h2{background-color:royalblue;}
+h2{margin-top:10px;}
+h2{margin-left:-10px;}
+h2{margin-right:-10px;}
+h2{margin-bottom:10px;}
+h2{cursor: pointer;}
+
+
+h4{font-size:225%;}
+h4{cursor: pointer;}
+
+p{font-size: 150%;}
+p{margin-left: 25px;}
+p{margin-top:20;}
+p{margin-bottom:20;}
+
